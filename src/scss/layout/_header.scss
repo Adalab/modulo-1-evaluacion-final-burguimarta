@@ -1,8 +1,37 @@
-.Open-Spaces{
-    background-image: url("./asset/images/header.jpg");
-    background-position: center top;
-    background-size: 100% auto;
+.hero{
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:cover;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    padding: 19px 0 64px;
+    height: 389px;
 }
+
 .title{
     color: $color-primary;
+    text-align: center;
+    margin: 150px 0 0 0;
+    width: 100vh;
+}
+.burger{
+    position: fixed;
+    top: 43px;
+    left: 36px;
+    z-index: 100;
+}
+.button{
+    background-color: $color-primary;
+    color: $color-white;
+    padding: 15px;
+    margin: 45px 0 0 0;
+    border-style: none;
+    width: 176px;
+    font-weight: 600;
+    font-size: 16px;
+
 }
