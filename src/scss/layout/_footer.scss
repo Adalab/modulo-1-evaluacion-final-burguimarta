@@ -1,0 +1,46 @@
+.footer {
+    background-color: $color-primary;
+    color: $color-secondary;
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        font-size: 20px;
+        font-weight: 600;
+        height: 23px;
+        margin: 0 12px 0 0;
+    }
+
+    &__box {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    &__box:first-child {
+        margin-top: 56px;
+    }
+
+    &__box:last-child {
+        margin-bottom: 56px;
+    }
+
+    &__list {
+        list-style: none;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    &__icon {
+        width: 25px;
+        height: 26px;
+        margin: 25px 11px 0 0;
+        color: $color-white;
+    }
+
+    &__buttonTop {
+        color: $color-white;
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+    }
+}
