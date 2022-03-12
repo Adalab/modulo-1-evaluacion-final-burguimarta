@@ -9,7 +9,7 @@
 .features {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1 fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
@@ -43,7 +43,7 @@
     padding-top: 87px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 14px;
 
 
@@ -56,5 +56,6 @@
         width: 176px;
         font-weight: 600;
         font-size: 16px;
+        text-align: center;
     }
 }

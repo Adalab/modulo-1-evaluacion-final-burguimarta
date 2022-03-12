@@ -2,7 +2,9 @@
 @import 'core/reset';
 @import 'layout/page';
 @import 'layout/header';
-@import 'layout/footer';;
+@import 'layout/footer';
+@import 'devices/desktop';
+@import 'devices/tablet';
 
 :root{
     font-family: $font-main;

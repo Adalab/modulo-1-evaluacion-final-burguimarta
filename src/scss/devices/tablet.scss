@@ -1,0 +1,13 @@
+@media all and (min-width:768px) {
+    .footer {
+        flex-direction: row;
+        height: 276px;
+        align-items: center;
+
+        &__box:first-child {
+            margin-top: 0;
+        }
+    }
+
+    
+}
