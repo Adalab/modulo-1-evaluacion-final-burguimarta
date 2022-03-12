@@ -1,6 +1,9 @@
 .main {
     background-color: $color-stone;
-
+}
+.features {
+    text-align: center;
+    
     &__title {
         width: 323px;
         height: 113px;
@@ -10,16 +13,13 @@
         margin: 0 auto;
         padding-top: 41px;
     }
-}
-.features {
-    text-align: center;
 
     &__section1 {
         margin: 0 auto;
         margin-bottom: 25px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: 150px repeat(3, 1fr);
         justify-items: center;
     }
     &__item {
@@ -29,7 +29,7 @@
         width: 90px;
         margin: 37px 0;
     }
-    &__title {
+    &__subtitle {
         font-size: 20px;
         margin-bottom: 12px;
         line-height: normal;
@@ -62,20 +62,18 @@
     padding-top: 87px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
     font-size: 14px;
-
 
     &__button{
         background-color: $color-primary;
         color: $color-white;
         padding: 15px;
-        margin: 45px 0 0 0;
         border-style: none;
         width: 176px;
         font-weight: 600;
         font-size: 16px;
-        text-align: center;
+        margin: 45px 0 45px 0;
     }
     &__title{
         font-size: 20px;

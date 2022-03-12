@@ -1,0 +1,1 @@
+@media all and (min-width: 768px){.features__title{width:799px;height:auto;grid-column:1 / 4}.features__section1{grid-template-columns:repeat(3, 1fr);grid-template-rows:100px 1fr}.footer{flex-direction:row;height:276px;align-items:center}.footer__box:first-child{margin-top:0}}

@@ -1,16 +1,15 @@
 @media all and (min-width:768px) {
     /* mediaqueries main*/
-    .main {
+    .features {
         &__title {
             width: 799px;
             height: auto;
+            grid-column: 1 / 4;
         }
-    }
-    .features {
+
         &__section1 {
             grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 1fr;
-            
+            grid-template-rows: 100px 1fr;
         }
     }
     /* mediaqueries Footer*/
