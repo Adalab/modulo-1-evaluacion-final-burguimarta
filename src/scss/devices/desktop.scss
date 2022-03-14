@@ -1,0 +1,52 @@
+@media all and (min-width:1200px) {
+    .burger {
+        &__icon {
+            display: none;
+        }
+        &__menu {
+            display: flex;
+            width: 425px;
+            list-style: none;
+            justify-content: space-between;
+        }
+        &__link {
+            text-decoration: none;
+            color: #0c474b;
+        }
+    }
+
+    .hero {
+        &__Enjoy {
+            margin-left: 400px;
+        }
+    }
+    
+    .section3{   
+        display: flex; 
+        flex-direction: row;
+        padding-top: 0;
+
+        &__title{
+            font-size: 36px;
+        }
+        &__Spaces {
+            width: 50%;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        &__image {
+            width: 50%;
+        }
+    } 
+
+    .footer {
+
+        &__title {
+            font-size: 24px;
+        }
+        &__link {
+            font-size: 16px;
+        }
+    }
+}

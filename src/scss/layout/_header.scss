@@ -10,28 +10,44 @@
     font-size: 12px;
     padding: 19px 0 64px;
     height: 389px;
+
+    &__Enjoy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title{
+        color: $color-primary;
+        text-align: center;
+        margin: 150px 0 0 0;
+        width: 415px;
+    }
+
+    &__button{
+        background-color: $color-primary;
+        color: $color-white;
+        padding: 15px 25px;
+        width: 130px;
+        margin: 45px 0 0 0;
+        border-style: none;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    &__button:hover {
+        background-color: $color-orange;
+    }
 }
 
-.title{
-    color: $color-primary;
-    text-align: center;
-    margin: 150px 0 0 0;
-    width: 100vh;
-}
 .burger{
     position: fixed;
     top: 43px;
     left: 36px;
     z-index: 100;
-}
-.button{
-    background-color: $color-primary;
-    color: $color-white;
-    padding: 15px;
-    margin: 45px 0 0 0;
-    border-style: none;
-    width: 176px;
-    font-weight: 600;
-    font-size: 16px;
 
+    &__menu {
+        display: none;
+    }
 }
