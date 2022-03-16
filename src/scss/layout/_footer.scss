@@ -87,3 +87,21 @@
         100% { transform: scale(0.85) }
     }
 }
+@media all and (min-width:468px) and (max-width: 768px) {
+    .footer{
+        &__buttonTop {
+            display: none !important;
+        
+        }
+    }
+} 
+@media all and (min-width:768px) {
+    .footer {
+       &__rrss{
+          display: flex; 
+          flex-direction: row-reverse;
+       } 
+    }
+    
+
+}
